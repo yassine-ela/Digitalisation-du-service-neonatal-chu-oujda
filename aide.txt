@@ -1,0 +1,6 @@
+ docker compose exec -it database mysql -uchu -pchu
+use chu;
+describe matient;
+ DELETE FROM matient WHERE date_dadmission IS NULL;
+
+
